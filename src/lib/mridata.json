@@ -1,0 +1,573 @@
+[
+    {
+        "partname": "MR Lever",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "44",
+            "name": "Lever utan kontrast",
+            "code": "M44000",
+            "time": "30 min",
+            "desc": "Metastaskontroll, vid kontraindiktaion för IV kontrast"
+        },
+        {
+            "abv": "45",
+            "name": "MRCP + Översikt Lever",
+            "code": "M45000",
+            "time": "30 min",
+            "desc": "Allmän översikt lever/gallvägar utan specifik indikation\nLeverdonator när det kombineras med CT med kontrast"
+        },
+        {
+            "abv": "45S",
+            "name": "MRCP Sten",
+            "code": "M45000",
+            "time": "30 min",
+            "desc": "Ren stenfrågeställning\nGallastas"
+        },
+        {
+            "abv": "44Gd",
+            "name": "Lever med kontrast",
+            "code": "M44902",
+            "time": "30 min",
+            "desc": "Onkologisk utredning, hypervaskulära levermetastaser\nOnkologisk uppföljning, metastaskontroll"
+        },
+        {
+            "abv": "44H",
+            "name": "Lever Hemangiom",
+            "code": "M44902",
+            "time": "45 min",
+            "desc": "Karakterisering av fokala leverlesioner inkl hemangiom"
+        },
+        {
+            "abv": "44GM",
+            "name": "Lever med kontrast och MRCP",
+            "code": "M44902",
+            "time": "45 min",
+            "desc": "Cholangiocarcinom - karakterisering\nPSC surveillance"
+        },
+        {
+            "abv": "44P",
+            "name": "Lever med Primovist",
+            "code": "M44915",
+            "time": "45 min",
+            "desc": "Staging av metastaspatienter\nKarakterisering av oklara leverfokaliteter (tex FNH, ej hemangiom)\nCirrospatienter med misstänkt HCC"
+        },
+        {
+            "abv": "44PM",
+            "name": "Lever med Primovist och MRCP",
+            "code": "M44915",
+            "time": "45 min",
+            "desc": "Misstänkt Klatskintumör\nPSC utredning/surveillance"
+        },
+        {
+            "abv": "44D",
+            "name": "Lever Donatorutredning",
+            "code": "M44902",
+            "time": "45 min",
+            "desc": "Leverdonatorutredning (när ingen CT planeras)"
+        },
+        {
+            "abv": "46P",
+            "name": "MR Biligrafi",
+            "code": "M46916",
+            "time": "60 min",
+            "desc": "Galläckage (tex efter operation/trauma)"
+        },
+        {
+            "abv": "44Fe",
+            "name": "Lever - Järninlagring",
+            "code": "M44000",
+            "time": "30 min",
+            "desc": "Kvantifiering av järninlagring i levern"
+        }
+        ]
+    }, 
+    {
+        "partname": "MR Pankreas",
+        "color": "#198450",   
+        "data": [
+            {
+                "abv": "43",
+                "name": "Pankreas utan kontrast",
+                "code": "M43000",
+                "time": "30 min",
+                "desc": "Uppföljning av sidogångs-IPMN"
+            },
+            {
+                "abv": "43Gd",
+                "name": "Pankreas med kontrast",
+                "code": "M43900",
+                "time": "45 min",
+                "desc": "All pankreaspatologi (solida och cystiska tumörer, pankreatit osv)"
+            }
+            ]
+    },
+    {
+        "partname": "MR Urogenital",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "52",
+            "name": "Njurar utan kontrast",
+            "code": "M52000",
+            "time": "30 min",
+            "desc": "Karakterisering av njurtumörer/cystor vid kontraindikation för kontrast\nEventuellt uppföljning av kända njurtumörer"
+        },
+        {
+            "abv": "52Gd",
+            "name": "Njurar med kontrast",
+            "code": "M52900",
+            "time": "45 min",
+            "desc": "Karakterisering av njurtumörer/cystor"
+        },
+        {
+            "abv": "52U",
+            "name": "MR Urografi",
+            "code": "M52902",
+            "time": "60 min",
+            "desc": "Urotelial tumör / konkrement när CT inte är önskvärd"
+        },
+        {
+            "abv": "52MRAGd",
+            "name": "MRA Njurartärer",
+            "code": "M52208",
+            "time": "30 min",
+            "desc": "Patienter med misstänkt renovaskulär hypertoni"
+        },
+        {
+            "abv": "52MRA",
+            "name": "MRA Njurartärer utan kontrast",
+            "code": "M52206",
+            "time": "30 min",
+            "desc": "Vid kontraindikation för Gd kontrast"
+        },
+        {
+            "abv": "53",
+            "name": "Binjurar utan kontrast",
+            "code": "M53000",
+            "time": "30 min",
+            "desc": "Binjureadenom / incidentalom"
+        },
+        {
+            "abv": "53Gd",
+            "name": "Binjurar med kontrast",
+            "code": "M53900",
+            "time": "45 min",
+            "desc": "Binjuretumör"
+        },
+        {
+            "abv": "80",
+            "name": "Penisfraktur",
+            "code": "M80000",
+            "time": "30 min",
+            "desc": "Penisfraktur/trauma"
+        },
+        {
+            "abv": "80Gd",
+            "name": "Penis med kontrast",
+            "code": "M80900",
+            "time": "45 min",
+            "desc": "Penistumör"
+        },
+        {
+            "abv": "55S",
+            "name": "Scrotum",
+            "code": "M55900",
+            "time": "45 min",
+            "desc": "All testis/scrotum patologi"
+        },
+        {
+            "abv": "57",
+            "name": "Prostata",
+            "code": "M57000",
+            "time": "3T:    20 min1,5T: 30 min",
+            "desc": "Prostatacancer"
+        },
+        {
+            "abv": "57Gd",
+            "name": "Prostata med kontrast",
+            "code": "M57900",
+            "time": "45 min",
+            "desc": "Komplettering av biparametrisk MR prostata vid oklara fynd\nMisstanke om lokalt recidiv av prostatacancer"
+        },
+        {
+            "abv": "57T",
+            "name": "Prostata - Transgender",
+            "code": "M57000",
+            "time": "20 min",
+            "desc": "Kartläggning inför könsbekräftande kirurgi"
+        }
+        ]
+    },
+    {
+        "partname": "MR Gyn",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "56",
+            "name": "Cervixcancer utan kontrast",
+            "code": "M56895",
+            "time": "30 min",
+            "desc": "Utredning cervixcancer\nUppföljning tex innan brachyterapi"
+        },
+        {
+            "abv": "56Gd",
+            "name": "Cervixcancer med kontrast",
+            "code": "M56914",
+            "time": "45 min",
+            "desc": "Om det är oklar om det är cervix- eller corpuscancer\nSamtidig adnexaexpansivitet\nUppföljning efter behandling"
+        },
+        {
+            "abv": "56HB",
+            "name": "Cervixcancer med helbuk",
+            "code": "M55900, M41000\n(utan kontrast: M55000, M41000)",
+            "time": "60 min\n(utan kontrast: 45 min)",
+            "desc": "Cervixcancer, där man även vill avbilda övre delen av buken för att se ev. metastaser, körtlar, mm. Oftast vid utredningar, där man inte har gjort CT buk."
+        },
+        {
+            "abv": "58Gd",
+            "name": "Corpuscancer",
+            "code": "M58900",
+            "time": "45 min",
+            "desc": "Vid primärutredning preoperativt av corpuscancer (endometriecancer)"
+        },
+        {
+            "abv": "55V",
+            "name": "Vulvacancer",
+            "code": "M55900\n(utan kontrast: M55000)",
+            "time": "45 min",
+            "desc": "Enligt nVP/SVF undersöks tumörer med MR som palperas/inspekteras med en storlek av ≥4 cm eller vid klinisk misstanke på överväxt på närliggande organ."
+        },
+        {
+            "abv": "55E",
+            "name": "Endometrios",
+            "code": "M55000",
+            "time": "30 min",
+            "desc": "I första hand utredning av djup endometrios (>5 mm under peritoneum) i lilla bäckenet, inklusive adenomyos. \nVid preoperativ kartläggning av DIE eller vid malignitetmisstanke använd 55Gd istället\nBuscopan vid begäran"
+        },
+        {
+            "abv": "58",
+            "name": "Uterusanomalier",
+            "code": "M58000",
+            "time": "30 min",
+            "desc": "Patienter med frågeställning anomalier i genitalia (DSD=disorders of sex development, FGTCA= female genital tract congenital anomalies)."
+        },
+        {
+            "abv": "40G",
+            "name": "Buk - Gravid",
+            "code": "M40000",
+            "time": "30 min",
+            "desc": "Exempelvis oklart smärttillstånd (ovarialtorsion, appendicit, abscess, pancreatit, inflammatorisk tarmsjukdom etc.) samt tumörutredning."
+        },
+        {
+            "abv": "58P",
+            "name": "MR Placenta",
+            "code": "M58000",
+            "time": "45 min",
+            "desc": "Komplement till ultraljud vid frågeställningar om placentaabnormiteter"
+        }
+        ]
+    }, 
+    {
+        "partname": "MR Buk",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "40",
+            "name": "Helbuk",
+            "code": "M40000",
+            "time": "30 min",
+            "desc": "Vid kontraindikation för Gd kontrast"
+        },
+        {
+            "abv": "40Gd",
+            "name": "Helbuk med kontrast",
+            "code": "M40900",
+            "time": "45 min",
+            "desc": "Staging av retro- eller intraperitoneala tumörer\nOklara buksymptom - allmän buk utan riktad frågeställning"
+        },
+        {
+            "abv": "40S",
+            "name": "SWENOTECA",
+            "code": "M40000",
+            "time": "30 min",
+            "desc": "Uppföljning av testikelcancer för retroperitoneala/bukmetastaser (Swedish and Norwegian Testicular Cancer Group)"
+        },
+        {
+            "abv": "55",
+            "name": "Lilla Bäckenet Rutin",
+            "code": "M55000",
+            "time": "30 min",
+            "desc": "Vid kontraindikation för Gd kontrast"
+        },
+        {
+            "abv": "55Gd",
+            "name": "Lilla Bäckenet Rutin med kontrast",
+            "code": "M55900",
+            "time": "45 min",
+            "desc": "Generella sjukdomstillstånd i lilla bäckenet (både män och kvinnor) så som tumör, abscess och fistlar.\nMyom/sarkom i uterus, adnexaexpansiviteter\nVid preoperativ utredning av komplexa endometriosfall - ange att Buscopan ska ges innan us"
+        },
+        {
+            "abv": "40LD",
+            "name": "Helbuk + Dynamisk Lever",
+            "code": "M40900",
+            "time": "45 min",
+            "desc": "Tumörer med hypervaskulära metastaser (tex NET)"
+        }
+        ]
+    },
+    {
+        "partname": "MR Kolorektal",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "49PR",
+            "name": "Rektum Preop",
+            "code": "M49900\n(utan kontrast: M49000)",
+            "time": "45 min",
+            "desc": "Rektaltumör. Om lever redan är utredd, uppföljning, watch-and-wait Används till nyupptäckta tumörer och till patienter som strålats och ej opererats"
+        },
+        {
+            "abv": "49PO",
+            "name": "Rektum Postop",
+            "code": "M49900\n(utan kontrast: M49000)",
+            "time": "45 min",
+            "desc": "Vid opererade rektaltumörer. Recidiv, metastaser, komplikationer Där man valt att ej köra en hel leverundersökning"
+        },
+        {
+            "abv": "49W",
+            "name": "Watch and wait rektum utan kontrast",
+            "code": "M49000",
+            "time": "30 min",
+            "desc": "Rektaltumör som är strålad med komplett respons"
+        },
+        {
+            "abv": "54AN",
+            "name": "Analcancer med kontrast",
+            "code": "M54900",
+            "time": "45 min",
+            "desc": "Analcancer"
+        },
+        {
+            "abv": "40LR",
+            "name": "Lever Rektum Preop",
+            "code": "M55900, M44902\n(utan kontrast: M55000, M44000)",
+            "time": "75 min",
+            "desc": "Rektaltumör, levermetastaser, används till nyupptäckta tumörer och till patienter som strålats och ej opererat bort sin tumör"
+        },
+        {
+            "abv": "40PO",
+            "name": "Lever Rektum Postop",
+            "code": "M55900, M44902\n(utan kontrast: M55000, M44000)",
+            "time": "60 min",
+            "desc": "Vid opererade rektaltumörer, levermetastaser"
+        },
+        {
+            "abv": "55K",
+            "name": "Nedre Buk",
+            "code": "M55900\n(utan kontrast: M55000)",
+            "time": "45 min",
+            "desc": "Sigmoideum, oklar tumör, post op, abcesser"
+        },
+        {
+            "abv": "40K",
+            "name": "Buk Kolorektalcancer (Buk kontroll)",
+            "code": "M44900, M55900\n(utan kontrast: M44000, M55000)",
+            "time": "60 min",
+            "desc": "Onkologisk uppföljning nedre och övre buk, vid kolorektal cancer"
+        },
+        {
+            "abv": "40PC",
+            "name": "Buk Peritonealcarcinomatos",
+            "code": "M44900, M55900 (utan kontrast: M44000, M55000)",
+            "time": "60 min",
+            "desc": "Undersökning inriktad på peritoneal carcinomatos, vid kolorektal cancer"
+        },
+        {
+            "abv": "54F",
+            "name": "Perianalt Fistel",
+            "code": "M54900\n(utan kontrast: M54000)",
+            "time": "45 min",
+            "desc": "Fistel perianalt"
+        },
+        {
+            "abv": "40AP",
+            "name": "App med kontrast",
+            "code": "M55900\n(utan kontrast: M55000)",
+            "time": "45 min",
+            "desc": "Appendicit och/eller abcess"
+        },
+        {
+            "abv": "40GA",
+            "name": "Gravid app",
+            "code": "M55000",
+            "time": "30 min",
+            "desc": "Appendicit och/eller abscess. Snabbare protokoll anpassat för gravida"
+        },
+        {
+            "abv": "55T",
+            "name": "Tailgutcysta",
+            "code": "M55900",
+            "time": "45 min",
+            "desc": "Tailgutcysta"
+        },
+        {
+            "abv": "40LN",
+            "name": "Lever + nedre buk",
+            "code": "M44902, M5590",
+            "time": "60 min",
+            "desc": "Colontumör, levermetastaser"
+        }
+        ]
+    },
+    {
+        "partname": "MR Tunntarm",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "47",
+            "name": "MR Tunntarm med PO kontrast",
+            "code": "M47000",
+            "time": "45 min",
+            "desc": "Vid kontraindikation för Gd kontrast"
+        },
+        {
+            "abv": "47Gd",
+            "name": "MR Tunntarm med PO och IV kontrast",
+            "code": "M47901",
+            "time": "45 min",
+            "desc": "Inflammatorisk tarmsjukdom (Crohn, ulcerös kolit)\nTunntarmstumör"
+        },
+        {
+            "abv": "47F",
+            "name": "MR Tunntarm med PO och IV kontrast + perianal fistelöversikt",
+            "code": "M47901",
+            "time": "60 min",
+            "desc": "Inflammatorisk tarmsjukdom med frågeställning också om perianalt fistel"
+        }
+        ]
+    },
+    {
+        "partname": "MR Angio",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "75Gd",
+            "name": "MR Bäcken-Benangio",
+            "code": "M75207",
+            "time": "30 min",
+            "desc": "Kärlocklusion, perifer artärsjukdom"
+        },
+        {
+            "abv": "75V",
+            "name": "MR Venografi",
+            "code": "M75207",
+            "time": "45 min",
+            "desc": "Posttrombotiska förändringar i nedre extremiteter"
+        },
+        {
+            "abv": "75GV",
+            "name": "MR Venografi - Gravid Buk (utan kontrast)",
+            "code": "M75133",
+            "time": "45 min",
+            "desc": "Gravida med hög ventrombos"
+        },
+        {
+            "abv": "51",
+            "name": "MR Aorta utan kontrast",
+            "code": "M51000",
+            "time": "30 min",
+            "desc": "Kontroll av aneurysm eller känd dissektion (om bara diameter är av intresse)"
+        },
+        {
+            "abv": "51Gd",
+            "name": "MR Aorta med kontrast",
+            "code": "M51800",
+            "time": "45 min",
+            "desc": "Aortapatologi"
+        },
+        {
+            "abv": "50",
+            "name": "MR Bukaorta utan kontrast",
+            "code": "M50000",
+            "time": "30 min",
+            "desc": "Kontroll av aneurysm"
+        },
+        {
+            "abv": "50Gd",
+            "name": "MR Bukaorta med kontrast",
+            "code": "M50800",
+            "time": "45 min",
+            "desc": "Bukaortapatologi"
+        },
+        {
+            "abv": "61MRAGd",
+            "name": "MR Armangio",
+            "code": "M61207",
+            "time": "45 min",
+            "desc": "Kärlocklusion, perifer artärsjukdom i arm"
+        },
+        {
+            "abv": "21MRAGd",
+            "name": "Thoracic Outlet",
+            "code": "M21900",
+            "time": "60 min",
+            "desc": "Vaskulär Thoracic Outlet Syndrome"
+        },
+        {
+            "abv": "69P",
+            "name": "Poplitealt Entrapment",
+            "code": "M69218",
+            "time": "45 min",
+            "desc": "Poplitealt Entrapment Syndrome"
+        }
+        ]
+    },
+    {
+        "partname": "MR Helkropp",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "99P",
+            "name": "MR Helkropp - Paragangliom",
+            "code": "M99000",
+            "time": "45 min",
+            "desc": "Uppföljning för friska individer med ärftligt anlag för feokromocytom och paragangliom"
+        },
+        {
+            "abv": "99SVEP",
+            "name": "MR Helkropp - SVEP",
+            "code": "M99000",
+            "time": "45 min",
+            "desc": "SVEP53 (Forskningsprotokoll)"
+        }
+        ]
+    },
+    {
+        "partname": "MR SPIO",
+        "color": "#198450",
+        "data": [
+        {
+            "abv": "30SPIO",
+            "name": "SPIO axiller",
+            "code": "M30000",
+            "time": "15 min",
+            "desc": "Lokalisation av sentinel node inför kirurgi för bröstcancer eller melanom vid tumör på övre extremitet. Injektion av SPIO i tumören görs av kirurg."
+        },
+        {
+            "abv": "55SPIO",
+            "name": "SPIO ljumskar",
+            "code": "M55000",
+            "time": "15 min",
+            "desc": "Lokalisation av sentinel node inför kirurgi för melanom vid tumör på nedre extremitet. Injektion av SPIO i tumören görs av kirurg."
+        },
+        {
+            "abv": "99SPIO",
+            "name": "SPIO axiller + ljumskar",
+            "code": "M99000",
+            "time": "30 min",
+            "desc": "Lokalisation av sentinel node inför kirurgi för melanom vid tumör på nedre extremitet. Injektion av SPIO i tumören görs av kirurg."
+        }
+        ]
+    }
+]
