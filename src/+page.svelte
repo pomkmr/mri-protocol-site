@@ -1,4 +1,5 @@
 <script>
+    export const prerender = true;
     import MRPartCard from "../components/MRPartCard.svelte";
     import mridata from "$lib/mridata.json";
 </script>
