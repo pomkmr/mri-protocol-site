@@ -1,13 +1,12 @@
 <script>
-    let {part_name, input_data} = $props();
-
+    let {part_name, input_data, search_term} = $props();
 
     let show_info = $state(false);
     import sample_img from "$lib/images/sample_mri.jpg";
     
     import Modal from "./Modal.svelte";
     let showModal = $state(false);
-    let show_table = $state(false);
+    let show_table = $state(true);
 
     import ProtoInfo from "./ProtoInfo.svelte";
 
@@ -19,6 +18,14 @@
         name = info.name;
         showModal = true;
     }
+
+    let filtered_list = $derived(
+        input_data.filter(e => e.desc.toLowerCase().includes(search_term))
+    );
+
+    let output_list = $derived(search_term ? filtered_list : input_data);
+
+    $inspect(filtered_list);
 </script>
 
 <style>
@@ -131,7 +138,7 @@
             </tr>
         </thead>
         <tbody>
-            {#each input_data as rowdata}
+            {#each output_list as rowdata}
             <tr onclick={() => get_extra_info(rowdata)}>
                 <td>{rowdata.abv}</td>
                 <td>{rowdata.name}</td>
