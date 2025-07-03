@@ -43,15 +43,17 @@
     }
 
     table {
-        table-layout: fixed;
+        table-layout: auto;
         border-collapse: collapse;
+        margin: 0px;
+        width: 100%;
     }
 
     caption {
         padding: 1.2rem;
+        width: 100%;
         background-color: var(--card-color);
         text-align: left;
-        width: 100%;
         font-weight: bold;
         font-size: 1.5rem;
         caption-side: top;
@@ -64,9 +66,6 @@
         padding: 10px 20px;
         background-color: inherit;
         color: inherit;
-    }
-
-    th {
         text-align: left;
     }
 
