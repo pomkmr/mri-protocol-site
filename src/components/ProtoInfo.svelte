@@ -1,5 +1,6 @@
 <script>
     let {input_data} = $props();
+    import test_html from '$lib/clean_test.html?raw'
 
 </script>
 
@@ -85,4 +86,5 @@
             </tbody>
         </table>
     </div>
+    {@html test_html}
 </div>
